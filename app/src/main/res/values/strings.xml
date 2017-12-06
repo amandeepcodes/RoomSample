@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RoomSample</string>
+    <string name="title_activity_contacts_list">ContactsListActivity</string>
+</resources>
