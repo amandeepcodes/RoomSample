@@ -32,7 +32,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.Contac
     public void onBindViewHolder(ContactViewHolder holder, int position) {
 
         holder.contactName.setText(mContacts.get(position).getName());
-        holder.contactNumber.setText(mContacts.get(position).getNumber());
+        holder.contactNumber.setText(mContacts.get(position).getNumber()+" , "+ mContacts.get(position).getAltrNumber());
     }
 
     @Override
